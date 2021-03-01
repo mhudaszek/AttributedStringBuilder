@@ -10,5 +10,5 @@ let builder = AttributedStringBuilder()
             .bold("ipsum dolor", size: 25)
             .image(UIImage(named: "settings"),
                    withSizeFittingFontUppercase: UIFont.systemFont(ofSize: 25))
-        label.attributedText = builder.attributedString
+label.attributedText = builder.attributedString
 ```
